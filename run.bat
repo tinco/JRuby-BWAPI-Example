@@ -1,1 +1,1 @@
-java -cp "./bin;./lib/*" TestBot1
+java -cp "./lib/*;./bin" Run bot.rb
