@@ -1,6 +1,6 @@
 require 'java'
 
-$LOAD_PATH.unshift(File.dirname(__FILE__) + '/../lib')
+$LOAD_PATH.unshift(File.dirname(__FILE__) + '\lib')
 
 require 'bwmirror_v2_4.jar'
 
