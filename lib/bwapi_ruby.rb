@@ -1,5 +1,8 @@
 require 'java'
-require '.\lib\bwmirror_v2_4.jar'
+
+$LOAD_PATH.unshift(File.dirname(__FILE__) + '/../lib')
+
+require 'bwmirror_v2_4.jar'
 
 module Bwapi
 	include_package 'bwapi'

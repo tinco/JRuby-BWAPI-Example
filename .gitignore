@@ -1,3 +1,4 @@
 bwapi-data
 *~
 *.swp
+./*.dll
