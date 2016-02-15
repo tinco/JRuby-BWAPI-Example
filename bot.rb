@@ -6,7 +6,7 @@ class TestBot < Bwapi::Bot
 	end
 
 	def on_frame
-		game.drawTextScreen(10, 10, "Playing as #{player.getName} - #{player.getRace}")
+		game.draw_text_screen(10, 10, "Playing as #{player.name} - #{player.race}")
 	end
 end
 
