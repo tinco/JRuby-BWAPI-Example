@@ -15,18 +15,6 @@ module Bwapi
 	class BWListener
 		include Bwapi::BWEventListener
 
-		def onStart
-			on_start
-		end
-
-		def onFrame
-			on_frame
-		end
-
-		def onUnitCreate(unit)
-			on_unit_create(unit)
-		end
-
 		def method_missing(name, *args)
 			# ignore for now
 		end
@@ -65,7 +53,5 @@ module Bwapi
 			@player = player
 		end
 	end
-
-
 end
 
