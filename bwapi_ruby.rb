@@ -79,9 +79,9 @@ module Bwapi
 
 			puts "Initializing bot"
 			bot = bot_klass.new(game, player)
+			bot.on_start
 			mirror.getModule.setEventListener(bot)
 			puts "Bot Initialized"
-			bot.on_start
 		end
 	end
 
