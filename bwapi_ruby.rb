@@ -6,6 +6,46 @@ require 'bwmirror_v2_4.jar'
 
 module Bwapi
 	include_package 'bwapi'
+	include_package 'bwta'
+
+	# Eager load all bwapi classes so they can be included in other modules
+	AIModule
+	BaseLocation
+	Bullet
+	BulletType
+	BWEventListener
+	BWTA
+	Chokepoint
+	Client
+	Color
+	DamageType
+	DefaultBWListener
+	Error
+	Event
+	ExplosionType
+	Force
+	Game
+	GameType
+	Key
+	Mirror
+	MouseButton
+	Order
+	Player
+	PlayerType
+	Polygon
+	Position
+	Race
+	Region
+	Region
+	TechType
+	TilePosition
+	Unit
+	UnitCommand
+	UnitCommandType
+	UnitSizeType
+	UnitType
+	UpgradeType
+	WeaponType
 
 	def self.start_bot(klass)
 		mirror = Bwapi::Mirror.new
